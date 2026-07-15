@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(255, 244, 249);
+  max-width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(61, 61, 61);
+  
+}
+
+h2 {
+    color: rgb(197, 13, 105);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rgb(27, 27, 27);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    color: rgb(32, 32, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#page-subtitle {
+    text-align: center;
+    background-color: rgb(32, 32, 37);
+    margin: 20px;
+    color: rgb(197, 13, 105);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+.key-term {
+    background-color: rgb(197, 13, 105);
+    color: white;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hobbies {
+    color: rgb(27, 27, 27);
+    list-style-type: decimal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skill {
+    color: rgb(27, 27, 27);
+    list-style-type: circle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
