@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles/p2-gallery.css" />
+  </head>
+  <body>
+    <h1>Photo Gallery</h1>
+
+    <!-- Hero image: replace the src with your own file in images/ -->
+    <img class="hero" src="images/hero.jpg" alt="Women" />
+
+    <div class="gallery">
+      <figure class="tile">
+        <img src="images/tile-1.jpg" alt="Mountain" />
+        <figcaption>Mountain View</figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/tile-2.jpg" alt="Women" />
+        <figcaption>Portrait</figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/tile-3.jpg" alt="Building" />
+        <figcaption>City Building</figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/tile-4.jpg" alt="Flower" />
+        <figcaption>Blooming Flower</figcaption>
+      </figure>
+      <figure class="tile">
+        <img src="images/tile-5.jpg" alt="Saxophone" />
+        <figcaption>Golden Saxophone</figcaption>
+      </figure>
+      <!-- TODO 2: this tile is deliberately a tall portrait photo.
+           Under object-fit: cover it will crop badly.
+           Fix the framing with object-position in your CSS. -->
+      <figure class="tile tile-portrait">
+        <img src="images/tile-6.jpg" alt="High Building" />
+        <figcaption>Modern Skyscraper</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+/* Strategy: mobile-first */
+
+nav {
+    display: flex ;
+    flex-direction: column ;
+    position: sticky ;
+    top: 0 ;
+    background-color: #333 ;
+}
+
+nav a {
+    display: block ;
+    width: 100% ;
+    padding: 10px ;
+    text-align: center ;
+    text-decoration: none ;
+    color: white ;
+}
+
+/* Link states */
+nav a:link {
+    color: white ;
+}
+
+nav a:visited {
+    color: lightgray ;
+}
+
+nav a:hover {
+    background-color: #555 ;
+}
+
+nav a:active {
+    background-color: #777 ;
+}
+
+.tagline {
+    display: block ;
+}
+
+section {
+    min-height: 100vh ;
+    scroll-margin-top: 60px ;
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .tagline {
+        display: none ;
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    nav {
+        flex-direction: row ;
+    }
+
+    nav a {
+        flex: 1 ;
+        width: auto ;
+    }
+}
