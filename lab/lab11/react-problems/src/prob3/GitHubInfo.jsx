@@ -1,0 +1,15 @@
+import { GitHubAvatar, GitHubRepoURL } from '../shared/GitHubComponents.jsx';
+
+export function GitHubInfo({ userInfo }) {
+  return (
+    <div className="GitHubInfo">
+      <h1>{userInfo.alt}</h1>
+      <GitHubAvatar
+        imgURL={userInfo.imgURL}
+        alt={userInfo.alt}
+        size={200}
+      />
+      <GitHubRepoURL url={userInfo.url} />
+    </div>
+  );
+}
